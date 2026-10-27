@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "release": "v0.2.0",
+  "verifiedAt": "2026-10-27T12:03:04.127794+00:00",
+  "artifact": {
+    "file": "cognitive-overdrive-portfolio-v2.mp4",
+    "sha256": "b01caaf44d51d71463889ff888d262a05c99b38919946414c57b578416980f38",
+    "bytes": 101035750,
+    "durationSeconds": 330.966667,
+    "videoDurationSeconds": 330.966667,
+    "audioDurationSeconds": 330.94,
+    "videoCodec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 9929,
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "videoStartSeconds": 0.0,
+    "audioStartSeconds": 0.0
+  },
+  "audio": {
+    "encodedAAC": {
+      "integratedLUFS": -16.04,
+      "truePeakDBTP": -1.38,
+      "loudnessRangeLU": 3,
+      "thresholdLUFS": -26.51
+    },
+    "staticAttenuationDB": 0,
+    "sourceMasterSHA256": "1d5bd88d164ab2bf33e187bf51d45aabe5c5a0c24e4b78c97cb62d91539c6002",
+    "continuousMaster": true,
+    "preservedVoiceTakes": true,
+    "subjectiveListening": "Not performed; objective measurements do not establish listener preference."
+  },
+  "timing": {
+    "timelineSHA256": "addad650f4fc9cb800fbbebe1b64c93177221dc448ab656fbffc2b58a511ef54",
+    "authoredDurationSeconds": 330.94000000000005,
+    "maximumSceneClockRoundingSeconds": 0.00033333333334439885,
+    "frameClockVerified": true,
+    "videoTailQuantizationSeconds": 0.02666666666658557,
+    "embeddedMedia": {
+      "passed": true,
+      "frames": 9929,
+      "expectedFrames": 9929,
+      "fps": 30,
+      "finalFrameTime": 330.93333333333334,
+      "timelineDuration": 330.94000000000005,
+      "maximumClockErrorSeconds": 0.00033333333334439885,
+      "sceneClockToleranceSeconds": 0.0011,
+      "mediaFidelitySemantics": "Embedded video timestamps must remain within one measured source-frame interval; source-frame index inferred from currentTime must differ by at most one. This does not claim subframe source-video accuracy. Authored scene clocks are checked separately.",
+      "timestampPrecisionSeconds": 5e-06,
+      "mediaCounts": {
+        "/brand/cognitive-overdrive-intro-v2.mp4": 300,
+        "/showcase/bakeoff.mp4": 190,
+        "/showcase/edge.mp4": 187
+      },
+      "maximumMediaOffsetErrorsSeconds": {
+        "/brand/cognitive-overdrive-intro-v2.mp4": 1.6666666660114515e-06,
+        "/showcase/bakeoff.mp4": 0.033334000000004416,
+        "/showcase/edge.mp4": 0.03333400000000797
+      },
+      "mediaFidelity": {
+        "/brand/cognitive-overdrive-intro-v2.mp4": {
+          "sourceFps": 30,
+          "sourceFrameIntervalSeconds": 0.03333333333333333,
+          "toleranceSeconds": 0.03333833333333333,
+          "samples": 300,
+          "maximumAbsoluteOffsetSeconds": 1.6666666660114515e-06,
+          "maxSourceFrameIndexDifference": 0,
+          "samplesOnDifferentSourceFrame": 0,
+          "firstOffsetSeconds": 0,
+          "lastOffsetSeconds": -6.66666666759852e-07,
+          "endpointDriftSeconds": -6.66666666759852e-07,
+          "fittedDriftAcrossClipSeconds": -1.543743076898078e-08,
+          "backwardsSamples": 0,
+          "noAccumulatingDrift": true
+        },
+        "/showcase/bakeoff.mp4": {
+          "sourceFps": 25,
+          "sourceFrameIntervalSeconds": 0.04,
+          "toleranceSeconds": 0.040005,
+          "samples": 190,
+          "maximumAbsoluteOffsetSeconds": 0.033334000000004416,
+          "maxSourceFrameIndexDifference": 1,
+          "samplesOnDifferentSourceFrame": 8,
+          "firstOffsetSeconds": 0.026666666666664583,
+          "lastOffsetSeconds": -3.3333333249174757e-07,
+          "endpointDriftSeconds": -0.026666999999997075,
+          "fittedDriftAcrossClipSeconds": -0.004391331386056934,
+          "backwardsSamples": 0,
+          "noAccumulatingDrift": true
+        },
+        "/showcase/edge.mp4": {
+          "sourceFps": 25,
+          "sourceFrameIntervalSeconds": 0.04,
+          "toleranceSeconds": 0.040005,
+          "samples": 187,
+          "maximumAbsoluteOffsetSeconds": 0.03333400000000797,
+          "maxSourceFrameIndexDifference": 1,
+          "samplesOnDifferentSourceFrame": 8,
+          "firstOffsetSeconds": -6.666666708364521e-07,
+          "lastOffsetSeconds": -0.0333336666666737,
+          "endpointDriftSeconds": -0.03333300000000286,
+          "fittedDriftAcrossClipSeconds": -0.002514536352258723,
+          "backwardsSamples": 0,
+          "noAccumulatingDrift": true
+        }
+      },
+      "joins": [
+        {
+          "from": "segment-1.partial.frames.json",
+          "to": "segment-2.partial.frames.json",
+          "before": 109.96666666666667,
+          "after": 110,
+          "expectedStep": 0.03333333333333333
+        },
+        {
+          "from": "segment-2.partial.frames.json",
+          "to": "segment-3.partial.frames.json",
+          "before": 219.96666666666667,
+          "after": 220,
+          "expectedStep": 0.03333333333333333
+        }
+      ],
+      "issues": []
+    }
+  },
+  "checks": {
+    "fullDecode": "passed",
+    "story": "7 chapters, 4 audience lenses, 27 projects",
+    "unitTests": {
+      "passed": 16
+    },
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "offlineAssets": "passed",
+    "guidedBrowserChecks": {
+      "passed": 18,
+      "viewports": [
+        "1920x1080",
+        "1440x900",
+        "390x844"
+      ]
+    },
+    "cinematicBrowserChecks": {
+      "passed": 12,
+      "scope": "Unique executed checks across desktop and phone runs, including all 56 desktop beat bounds, playback, seek, recorded clips, failure state, proof states and captions."
+    },
+    "fractionalDurationRegression": "29-frame render and 89-frame assembly passed exact count, origins and full decode.",
+    "sourceDisclosureScan": "No matches for checked credential/private-path patterns in nonignored source snapshot; not a proof of absence or a history scan."
+  },
+  "visualReview": {
+    "status": "passed sampled frames",
+    "encodedFrameSamples": 58,
+    "coverage": "One settled sample for each of 56 visual beats, original intro, closing hold; recovered terminal frame separately inspected.",
+    "finalAssemblySamplesMatchReviewedSections": true,
+    "scope": "Sampled image inspection and automated full-frame decode; not a continuous subjective playback review."
+  },
+  "captions": {
+    "cues": 76,
+    "firstCueSeconds": 10.713,
+    "lastCueSeconds": 326.98,
+    "boundsAndOrder": "passed",
+    "timingSource": "Saved ElevenLabs character alignment plus fixed chapter schedule",
+    "srtSHA256": "d33595cddeb6e25b540b694039aa393608f35a2aeb3757f207e659f7f2b058a3",
+    "vttSHA256": "8924484c55210d008b11ec386dbc079c3e40d4e04fbd672103eec6d5f2a245d1",
+    "format": "Sidecar SRT and WebVTT, not burned into picture."
+  },
+  "exportCorrections": [
+    "Replaced wall-clock recording with explicit authored frame times.",
+    "Video duration is defined by frame count; audio is trimmed independently.",
+    "Restored the one initially truncated terminal frame by rerendering it at 330.933333333 seconds; prior encoded frames preserved by stream copy.",
+    "Discarded segment audio and encoded one continuous full master for assembly."
+  ]
+}

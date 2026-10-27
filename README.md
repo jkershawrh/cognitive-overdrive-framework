@@ -4,9 +4,9 @@ Jonathan Kershaw’s interactive portfolio and a reusable React presentation fra
 
 The default experience follows a seven-act adaptation of Joseph Campbell’s hero journey. It connects 27 source-backed cases across Applied AI, Platforms, Enablement, Governance and Research, with four audience lenses: C-suite, solution architects, sales and internal teams.
 
-![Cognitive Overdrive portfolio opening scene](docs/preview.png)
+![Original Cognitive Overdrive brand opening](public/brand/cognitive-overdrive-intro-poster.png)
 
-The [first release](https://github.com/jkershawrh/cognitive-overdrive-framework/releases/tag/v0.1.0) includes the narrated film and English captions. This private repository is configured as a GitHub template.
+This public repository is configured as a GitHub template. [Download the revised 1080p MP4](https://github.com/jkershawrh/cognitive-overdrive-framework/releases/download/v0.2.0/cognitive-overdrive-portfolio-v2.mp4) or open [release v0.2.0](https://github.com/jkershawrh/cognitive-overdrive-framework/releases/tag/v0.2.0) for captions. Revision 2 includes a cinematic player, original branding and music, and a speech-timed, deterministic frame-rendering pipeline. The [first release](https://github.com/jkershawrh/cognitive-overdrive-framework/releases/tag/v0.1.0) remains available as the earlier guided-interface recording. Revision-2 export checks are recorded in [the revision audit](docs/REVISION-2-AUDIT.md).
 
 ## Run locally
 
@@ -17,7 +17,7 @@ npm ci
 npm run dev -- --host 127.0.0.1
 ```
 
-Open the local URL printed by Vite. The portfolio needs no model endpoint, account credential or running case-study backend.
+Open the local URL printed by Vite for the guided portfolio; add `?film=1` for the cinematic player. Start playback to enable sound. The portfolio needs no model endpoint, account credential or running case-study backend.
 
 To validate and build:
 
@@ -50,7 +50,10 @@ Content, presentation state and assets have separate entry points:
 - `src/demo.config.ts` selects the active story.
 - `src/portfolio/story.ts` defines identity, seven chapters, presenter notes and audience lenses.
 - `src/portfolio/projects.ts` supplies the case library. The work chapter features Bake Off, Edge, AERIS, Triforce, Launchpad and Praxis, ordered by audience lens.
-- `src/portfolio/PortfolioEngine.tsx` owns navigation, dialogs, session state and the default scene layouts.
+- `src/portfolio/PortfolioEngine.tsx` owns guided navigation, dialogs, session state and the default scene layouts.
+- `src/portfolio/Cinema.tsx` presents the cinematic scenes against one shared playhead.
+- `narration/cinematic-beats.json` connects short visual statements to exact spoken phrases; the timeline builder resolves their timestamps.
+- `src/portfolio/Brand.tsx` displays the original CO mark and wordmark using their source crop geometry.
 - `src/framework.ts` exports the engine, types and extension components.
 - `public/` contains images, fonts and narration assets.
 - `data/portfolio-evidence.json` retains dated, public-safe provenance and maturity boundaries.
@@ -61,13 +64,13 @@ The implementation adapts mechanics from the existing `demo-story-starter` patte
 
 ## What runs here
 
-The active application is a static React/Vite experience with motion, an illustrated hero, original project screenshots and recorded excerpts, procedural SVG case artwork, a source-based architecture walkthrough, project exploration, chapter narration and a local prerequisite-check simulation.
+The React/Vite application offers a guided portfolio and a cinematic presentation. The cinematic cut uses **56 speech-timed visual beats** across the same seven-act journey, with the original ten-second brand opening, continuous music under narration, original project excerpts, animated system flows and three labeled concept renders. The current authored timeline is **330.94 seconds** (about 5:31).
 
-The hero artwork is a raster rendering with motion. The portfolio does not render an interactive 3D physical system or run the underlying portfolio projects. AERIS’s 3D workbench is described as a separate project.
+The original intro and portfolio motion include projected 3D geometry; compute, Edge and Launchpad concept renders are raster artwork animated within the presentation. Original Edge and Bake Off clips show recorded project experiences. AERIS uses its existing rehearsal screenshot. These visuals do not execute the underlying systems or establish physical hardware qualification.
 
 Intel, AMD, Arm and NVIDIA form a cross-hardware story with separate evidence levels: documented reference execution, retained historical runs, release packaging and outstanding native qualification. Launchpad makes the organizational handoff explicit: request, provision, validate, participant handoff and reclaim. See the [hardware and delivery evidence](data/hardware-evidence.json).
 
-The first narrated film is **5 minutes 23 seconds**, exported at **1920×1080, 30 fps**, with H.264 video, AAC audio and 73 speech-aligned English caption cues in SRT and WebVTT. It records the actual interface, original project excerpts, architecture reveals and changed-condition simulation. The existing Kersh ElevenLabs v3 voice settings are preserved. See [the video runbook](docs/VIDEO.md) to regenerate narration or render another cut.
+The revision-2 export is `output/v2/cognitive-overdrive-portfolio-v2.mp4`, with aligned English SRT and WebVTT captions. `scripts/render-frames.mjs` renders **9,929 exact-time browser frames** for the current timeline, at 1920 × 1080 and 30 fps, then encodes H.264 video with stereo AAC audio. It retains the existing Kersh ElevenLabs voice takes and mixes the original Cognitive Overdrive theme, quieter underscore and closing sting. The final AAC measures -16.04 LUFS and -1.38 dBTP; all 9,929 frames passed decode and timing checks. See the [verification record](data/revision-2-verification.json) for the inspection scope and listening limit. The full film can also be rendered as three verified sections and joined with one continuous soundtrack; the [three-part workflow](docs/VIDEO.md#render-three-sections-and-assemble-one-film) documents the exact commands. See [the video runbook](docs/VIDEO.md), [audio guide](docs/AUDIO.md) and [brand provenance](docs/BRAND.md).
 
 The proof chapter performs deterministic checks in the browser. It produces **SIMULATION** records and can export the current session as JSON. It does not invoke a model, a Triforce service, a cluster or a real transaction. Session state is held in memory and resets on a page reload.
 
@@ -81,4 +84,4 @@ Run `node scripts/validate-story.mjs` after content edits. It checks the seven c
 
 Narration settings and generation provenance belong to the narration manifest and narration documentation. Older research voice presets are deliberately excluded from the case inventory.
 
-The first release passed 16 unit checks and 18 browser checks across 1920×1080, 1440×900 and 390×844, plus story validation, type checking, the production build and offline-asset verification. Voice likeness, pacing and project emphasis remain the focus of the owner's next editorial pass.
+The first release's recorded checks apply to v0.1.0. Revision-2 build, browser, frame-rendering, encoded-audio and sampled-image results are recorded against the current artifact; see [the revision audit](docs/REVISION-2-AUDIT.md). A successful mix or render preflight does not establish a finished-film review.

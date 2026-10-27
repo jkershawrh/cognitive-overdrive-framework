@@ -1,7 +1,7 @@
 {
   "name": "cognitive-overdrive-framework",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5177",
@@ -12,7 +12,13 @@
     "check": "npm run validate:story && npm run test && npm run build && npm run verify:offline",
     "preview": "vite preview",
     "validate:story": "node scripts/validate-story.mjs",
-    "render:video": "node scripts/render-video.mjs"
+    "render:video": "node scripts/render-frames.mjs",
+    "build:film": "node scripts/build-cinematic-timeline.mjs",
+    "mix:audio": "python3 scripts/mix-audio.py",
+    "render:legacy": "node scripts/render-video.mjs",
+    "assemble:video": "node scripts/assemble-film.mjs",
+    "verify:film-media": "node scripts/verify-frame-media.mjs",
+    "render:diagnostic": "node scripts/render-cinematic.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^6.0.1",

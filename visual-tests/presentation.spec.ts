@@ -151,7 +151,7 @@ test('deep links, browser back, and focused controls preserve navigation intent'
 })
 
 test('every chapter has its own delivered narration and readable transcript', async ({ page, request }) => {
-  const response = await request.get('/narration/manifest.json')
+  const response = await request.get('/narration/mixed/manifest.json')
   expect(response.ok(), 'Narration manifest has been delivered').toBe(true)
   const manifest = await response.json() as { tracks: { id: string; src: string; text: string }[] }
   expect(manifest.tracks).toHaveLength(7)

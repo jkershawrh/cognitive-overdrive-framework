@@ -1,0 +1,303 @@
+1
+00:00:10,713 --> 00:00:14,645
+I'm Jonathan Kershaw. I build demonstrations that help people see what
+
+2
+00:00:14,645 --> 00:00:18,890
+technology can make possible. The journey begins with a familiar
+
+3
+00:00:18,890 --> 00:00:23,940
+problem: a room full of powerful ideas, and no shared picture of what
+
+4
+00:00:23,940 --> 00:00:28,140
+changes for the business. My work connects those worlds.
+
+5
+00:00:28,260 --> 00:00:33,260
+I turn a technical mechanism into a story people can enter, question, and
+
+6
+00:00:33,300 --> 00:00:37,860
+use. Across Red Hat platforms, applied AI, and partner
+
+7
+00:00:37,860 --> 00:00:42,090
+ecosystems, the goal is the same: make the next decision
+
+8
+00:00:42,090 --> 00:00:45,640
+clearer. Welcome to Cognitive Overdrive.
+
+9
+00:00:45,640 --> 00:00:49,820
+Let's move from possibility to something you can inspect.
+
+10
+00:00:50,947 --> 00:00:53,400
+Every journey has a call to action.
+
+11
+00:00:53,400 --> 00:00:56,280
+Mine starts by understanding the room.
+
+12
+00:00:56,280 --> 00:01:00,720
+An executive needs to connect a capability to a business decision.
+
+13
+00:01:00,760 --> 00:01:05,400
+A solution architect needs to see the boundaries, dependencies, and
+
+14
+00:01:05,400 --> 00:01:10,360
+tradeoffs. Sales needs a story the customer recognizes.
+
+15
+00:01:10,360 --> 00:01:14,400
+Internal teams need something they can deliver again.
+
+16
+00:01:14,480 --> 00:01:18,600
+I design those entry points around one technical foundation.
+
+17
+00:01:18,600 --> 00:01:22,620
+Choose an audience here, and the emphasis changes with it.
+
+18
+00:01:22,620 --> 00:01:27,462
+The craft is knowing what to reveal, when to reveal it, and which
+
+19
+00:01:27,462 --> 00:01:30,960
+evidence helps this person move forward.
+
+20
+00:01:31,888 --> 00:01:36,180
+The work takes different forms because the audience needs different ways in.
+
+21
+00:01:36,220 --> 00:01:41,233
+The Great CPU Bake Off turns a placement decision into a memorable
+
+22
+00:01:41,233 --> 00:01:45,980
+business story. Edge Inference at Scale connects constrained
+
+23
+00:01:45,980 --> 00:01:48,620
+compute to a human need.
+
+24
+00:01:48,800 --> 00:01:53,660
+AERIS explores a cinematic inspection scenario, clearly labeled as a
+
+25
+00:01:53,660 --> 00:01:58,372
+concept. Triforce brings the depth: multi-agent
+
+26
+00:01:58,372 --> 00:02:02,840
+workflows, tools, event contracts, and heterogeneous
+
+27
+00:02:02,840 --> 00:02:07,060
+compute. The platform story is Red Hat aligned.
+
+28
+00:02:07,100 --> 00:02:12,140
+Intel reference work, recorded AMD runs, historical
+
+29
+00:02:12,140 --> 00:02:16,923
+NVIDIA fleet evidence, and Arm portability each have their own
+
+30
+00:02:16,923 --> 00:02:20,998
+qualification boundary. Different stories, one
+
+31
+00:02:20,998 --> 00:02:25,420
+discipline: make the mechanism clear, show what the evidence
+
+32
+00:02:25,420 --> 00:02:29,860
+supports, and give the audience a useful next step.
+
+33
+00:02:30,924 --> 00:02:33,160
+Now cross the threshold into the system.
+
+34
+00:02:33,280 --> 00:02:35,700
+A diagram should answer a question.
+
+35
+00:02:35,700 --> 00:02:40,011
+Trace the request, reveal the boundary, then explain why that component
+
+36
+00:02:40,011 --> 00:02:44,480
+exists. In Triforce, Python, Java, and Go
+
+37
+00:02:44,480 --> 00:02:48,862
+connect business workflows through tools, routing, and event-driven
+
+38
+00:02:48,862 --> 00:02:53,911
+coordination. In the Praxis lab, application teams use a stable gateway
+
+39
+00:02:53,911 --> 00:02:57,720
+contract while the platform controls backend choices.
+
+40
+00:02:57,720 --> 00:03:02,240
+Red Hat OpenShift provides a common platform context across this
+
+41
+00:03:02,240 --> 00:03:07,013
+work. Hardware portability becomes a design discipline: preserve the
+
+42
+00:03:07,013 --> 00:03:11,840
+application contract, qualify each target, and show the evidence for the
+
+43
+00:03:11,840 --> 00:03:14,120
+path actually being discussed.
+
+44
+00:03:15,052 --> 00:03:18,780
+A convincing demonstration should survive a difficult question.
+
+45
+00:03:18,788 --> 00:03:21,180
+What happens when the evidence is missing?
+
+46
+00:03:21,204 --> 00:03:23,660
+What if permission is withdrawn?
+
+47
+00:03:23,700 --> 00:03:27,900
+This chapter lets you test that idea in a browser simulation.
+
+48
+00:03:28,020 --> 00:03:30,620
+No model or backend is running here.
+
+49
+00:03:30,626 --> 00:03:34,140
+Change a condition and watch the decision respond.
+
+50
+00:03:34,160 --> 00:03:38,520
+The purpose is to make the rule understandable, including the point where
+
+51
+00:03:38,520 --> 00:03:42,720
+the system must stop. The wider portfolio separates source
+
+52
+00:03:42,720 --> 00:03:47,508
+implementations, recorded results, and rehearsal candidates.
+
+53
+00:03:47,508 --> 00:03:51,860
+That clarity gives an architect something to inspect, and a business leader
+
+54
+00:03:51,860 --> 00:03:54,460
+a sound basis for the next conversation.
+
+55
+00:03:55,388 --> 00:03:58,863
+The reward is a capability that travels beyond one presenter.
+
+56
+00:03:58,863 --> 00:04:01,600
+Launchpad is central to that ambition.
+
+57
+00:04:01,600 --> 00:04:05,960
+Its documented pilot brings catalog intake, individual labs,
+
+58
+00:04:05,960 --> 00:04:10,724
+workshops, qualification checks, and environment cleanup into a shared
+
+59
+00:04:10,724 --> 00:04:14,320
+delivery experience. Participants get a place to learn.
+
+60
+00:04:14,387 --> 00:04:16,950
+Instructors get a repeatable workshop.
+
+61
+00:04:16,950 --> 00:04:19,840
+Content teams get a path to contribute.
+
+62
+00:04:19,960 --> 00:04:24,840
+The same principle shapes my sovereign AI, virtualization, and
+
+63
+00:04:24,840 --> 00:04:29,680
+agentic learning tracks: connect a concise story to architecture,
+
+64
+00:04:29,840 --> 00:04:33,448
+a separate hands-on lab, and an evidence-aware
+
+65
+00:04:33,448 --> 00:04:38,267
+handoff. One investment can support executive conversations,
+
+66
+00:04:38,267 --> 00:04:43,120
+sales discovery, technical depth, and internal enablement.
+
+67
+00:04:44,045 --> 00:04:48,291
+The journey returns to the audience with something useful: a clearer
+
+68
+00:04:48,291 --> 00:04:52,610
+decision, an inspectable system, and a path to take the work
+
+69
+00:04:52,610 --> 00:04:56,500
+forward. That is what I bring as a demo engineer.
+
+70
+00:04:56,513 --> 00:05:00,974
+Storytelling and technical leadership meet in the same experience.
+
+71
+00:05:00,974 --> 00:05:03,506
+Motion gives the idea shape.
+
+72
+00:05:03,506 --> 00:05:07,820
+Architecture explains the mechanism. Evidence earns
+
+73
+00:05:07,820 --> 00:05:12,440
+confidence. Reusable delivery helps the organization carry it
+
+74
+00:05:12,440 --> 00:05:17,491
+further. This portfolio is an invitation to explore that craft
+
+75
+00:05:17,491 --> 00:05:22,540
+together. Choose a real customer problem, and let's walk through
+
+76
+00:05:22,540 --> 00:05:26,980
+how I would turn it into an experience that makes the next step clear.

@@ -3,7 +3,7 @@ import {Wave} from './Icons'
 type Track={id:string;text:string;src:string}
 export function Narration({id}:{id:string}){
  const [tracks,setTracks]=useState<Track[]>([]);const [playing,setPlaying]=useState(false);const [captions,setCaptions]=useState(false);const [error,setError]=useState('');const audio=useRef<HTMLAudioElement>(null)
- useEffect(()=>{fetch('/narration/manifest.json').then(r=>r.ok?r.json():null).then(m=>setTracks(m?.tracks??[])).catch(()=>{})},[])
+ useEffect(()=>{fetch('/narration/mixed/manifest.json').then(r=>r.ok?r.json():null).then(m=>setTracks(m?.tracks??[])).catch(()=>{})},[])
  useEffect(()=>{setPlaying(false);setError('');audio.current?.load()},[id])
  const track=tracks.find(t=>t.id===id)
  async function toggle(){if(!audio.current||!track)return;if(playing){audio.current.pause();setPlaying(false)}else{try{await audio.current.play();setPlaying(true)}catch{setError('Audio could not play. Read the transcript below.');setCaptions(true)}}}

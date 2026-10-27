@@ -1,0 +1,36 @@
+{
+  "title": "Possibility Signal",
+  "version": "0.2.0",
+  "usage": "Existing original Cognitive Overdrive music reused for the owner-requested portfolio revision.",
+  "original_provenance": {
+    "title": "Possibility Signal",
+    "version": "0.2.0",
+    "duration": 10,
+    "crescendoHitSeconds": 7.5,
+    "composer": "Original synthesis created for Cognitive Overdrive in this task",
+    "sampleSources": [],
+    "method": "Original analog-style oscillator arrangement, filtered generated percussion, stereo delay and diffused reverb; continuous narration underscore",
+    "bpm": 128,
+    "key": "A minor, F major, D minor, E dominant resolving to A minor",
+    "sampleRate": 48000,
+    "releaseApproval": "pending",
+    "note": "No recorded third-party audio or copied melody."
+  },
+  "assets": [
+    {
+      "file": "theme-original.wav",
+      "source_filename": "theme-master.wav",
+      "sha256": "6bf0d8fd58bd1a410ee387c2999a468955c46c42b10d53460c45a8288f37e13b"
+    },
+    {
+      "file": "underscore-original.wav",
+      "source_filename": "underscore.wav",
+      "sha256": "44298d36106a6d3a7d5ccfd14eb90031a71907e71313c604c115b80237570da3"
+    },
+    {
+      "file": "sting-original.wav",
+      "source_filename": "sting.wav",
+      "sha256": "a05001bf3f8feff137b654435141f94c0b851096ce3cca44b96740110951c1ae"
+    }
+  ]
+}

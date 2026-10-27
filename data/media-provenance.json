@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-10-27",
-  "scope": "Recorded project media incorporated into the private portfolio iteration; source repositories and original recordings were not changed.",
+  "scope": "Public portfolio revision, authorized by the portfolio owner. Original source repositories and recordings are unchanged.",
   "assets": [
     {
       "project": "The Great CPU Bake Off",
@@ -10,7 +10,10 @@
       "poster": "public/images/project-bakeoff.png",
       "poster_source_time_seconds": 8,
       "clip": "public/showcase/bakeoff.mp4",
-      "clip_source_interval_seconds": [69.5, 81.5],
+      "clip_source_interval_seconds": [
+        69.5,
+        81.5
+      ],
       "clip_size": "1280x720",
       "treatment": "Original recorded UI excerpt, silent H.264, yuv420p, faststart. Historical presentation footage; no current inference implied."
     },
@@ -21,7 +24,10 @@
       "poster": "public/images/project-edge.png",
       "poster_source_time_seconds": 125,
       "clip": "public/showcase/edge.mp4",
-      "clip_source_interval_seconds": [181, 193],
+      "clip_source_interval_seconds": [
+        181,
+        193
+      ],
       "clip_size": "1280x800",
       "treatment": "Original recorded software-flow excerpt, silent H.264, yuv420p, faststart. It does not establish field deployment or humanitarian efficacy."
     },
@@ -34,8 +40,38 @@
     {
       "project": "Cognitive Overdrive",
       "poster": "public/images/hero-sculpture.png",
-      "treatment": "Generated raster artwork with subtle CSS/React motion; not an interactive 3D simulation."
+      "treatment": "Legacy generated artwork retained for source history. The current hero and cinematic scenes use a projected 3D canvas sculpture with depth-sorted geometry and animated signals."
+    },
+    {
+      "project": "Cognitive Overdrive / cinematic concept art",
+      "asset": "public/renders/edge.png",
+      "description": "Rugged titanium edge computer and inspection camera at an industrial site at blue hour, lime and cyan local data path with a distant pink datacenter path.",
+      "generator": "OpenAI built-in image generation tool",
+      "created_at": "2026-10-27",
+      "sha256": "76c2bab9a52a4ee22c626897f0148426c2166f74b906a674e65f39463b4dfac2",
+      "treatment": "AI-generated raster concept rendering with cinematic camera motion and overlays. Not a deployment photograph, measured benchmark, or live 3D product model.",
+      "prompt_specification": "docs/ART-DIRECTION.md"
+    },
+    {
+      "project": "Cognitive Overdrive / cinematic concept art",
+      "asset": "public/renders/compute.png",
+      "description": "Exploded common smoked-glass application platform above four interchangeable CPU and accelerator cartridges, black titanium, physically based reflections and cyan, lime, pink traces.",
+      "generator": "OpenAI built-in image generation tool",
+      "created_at": "2026-10-27",
+      "sha256": "e79ab612bca9010228dd5ba315974298fd5533d6fb874aaf480edd6b3d067877",
+      "treatment": "AI-generated raster concept rendering with cinematic camera motion and overlays. Not a deployment photograph, measured benchmark, or live 3D product model.",
+      "prompt_specification": "docs/ART-DIRECTION.md"
+    },
+    {
+      "project": "Cognitive Overdrive / cinematic concept art",
+      "asset": "public/renders/launchpad.png",
+      "description": "Modular glass and titanium delivery capsules assembled on a gantry and rail into repeatable workstations; cinematic dark environment with cyan, lime and pink highlights.",
+      "generator": "OpenAI built-in image generation tool",
+      "created_at": "2026-10-27",
+      "sha256": "00d9cae252aedfc4c883e8360e5479a43cfec27abf62d832e244641d5c1b251f",
+      "treatment": "AI-generated raster concept rendering with cinematic camera motion and overlays. Not a deployment photograph, measured benchmark, or live 3D product model.",
+      "prompt_specification": "docs/ART-DIRECTION.md"
     }
   ],
-  "external_sharing": "First release is private. The source project retains its own evidence boundaries and any campaign review requirements."
+  "external_sharing": "Public GitHub repository and release authorized by Jonathan Kershaw. Source, recorded, concept, and simulation evidence labels remain explicit."
 }

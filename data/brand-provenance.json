@@ -1,0 +1,142 @@
+{
+  "schema_version": "brand-provenance/v1",
+  "reviewed_on": "2026-10-27",
+  "identity": "Existing Cognitive Overdrive owner website identity, reused from the source introduction project.",
+  "source_manifest_id": "cognitive-overdrive-introduction-001-r2",
+  "source_manifest_created_at": "2026-10-23T19:17:53.735Z",
+  "source_status": "Original package retains DRAFT filenames and awaiting-owner-review metadata. These describe the historical source package, not a new claim of final approval. Current portfolio reuse follows the owner request to restore the original branding and intro.",
+  "assets": [
+    {
+      "asset": "/brand/approved-main-reference.png",
+      "source_package": "Cognitive Overdrive introduction, revision 2",
+      "source_file": "work/studio/public/brand/approved-main-reference.png",
+      "sha256": "77870c40d7ea4d647d83a02874ca04c226384c9ea77e9fb09a8d0b2f1bbe36ee",
+      "bytes": 2489438,
+      "transformation": "None; byte-for-byte original."
+    },
+    {
+      "asset": "/brand/cognitive-overdrive-intro-poster.png",
+      "source_package": "Cognitive Overdrive introduction, revision 2",
+      "source_file": "outputs/pilot/revision-2/BrandIntro-poster.png",
+      "sha256": "58e233f6ab1de975019b09d25d4646e8fd9e27c5b16839a138071ac5223e86f4",
+      "bytes": 1250279,
+      "transformation": "None; byte-for-byte original."
+    },
+    {
+      "asset": "/brand/cognitive-overdrive-intro-v2.mp4",
+      "source_package": "Cognitive Overdrive introduction, revision 2",
+      "source_file": "outputs/pilot/revision-2/Cognitive-Overdrive-Brand-Intro-v2-DRAFT.mp4",
+      "sha256": "fb7227153f273833a4707f48f008b1780aacc295fd1d4bf7dcf818a2773b5f96",
+      "bytes": 5190448,
+      "transformation": "None; byte-for-byte original."
+    },
+    {
+      "asset": "/brand/fonts/anton-latin-400-normal.woff2",
+      "source_package": "Cognitive Overdrive introduction, revision 2",
+      "source_file": "work/studio/public/brand/fonts/anton-latin-400-normal.woff2",
+      "sha256": "9b2c42f4fa7d493fc20db0cbf384db4c561f091b1ecff6e5afd25c86d4b4d462",
+      "bytes": 18672,
+      "transformation": "None; byte-for-byte original."
+    },
+    {
+      "asset": "/brand/fonts/dm-sans-latin-400-normal.woff2",
+      "source_package": "Cognitive Overdrive introduction, revision 2",
+      "source_file": "work/studio/public/brand/fonts/dm-sans-latin-400-normal.woff2",
+      "sha256": "4ab51eb2cd7305d177187908d6397474d4520663f6c6e572feb0a64f4fa80006",
+      "bytes": 14200,
+      "transformation": "None; byte-for-byte original."
+    },
+    {
+      "asset": "/brand/fonts/anton-LICENSE.txt",
+      "source_package": "Cognitive Overdrive introduction, revision 2",
+      "source_file": "work/studio/public/brand/fonts/anton-LICENSE.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "bytes": 4314,
+      "transformation": "None; byte-for-byte original."
+    },
+    {
+      "asset": "/brand/fonts/dm-sans-LICENSE.txt",
+      "source_package": "Cognitive Overdrive introduction, revision 2",
+      "source_file": "work/studio/public/brand/fonts/dm-sans-LICENSE.txt",
+      "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7",
+      "bytes": 4502,
+      "transformation": "None; byte-for-byte original."
+    }
+  ],
+  "reference_dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "source_crop_contracts": {
+    "co_mark": {
+      "x": 53,
+      "y": 17,
+      "width": 65,
+      "height": 38
+    },
+    "wordmark": {
+      "x": 47,
+      "y": 126,
+      "width": 638,
+      "height": 209
+    }
+  },
+  "crop_method": "Original src/film.tsx uses an overflow-hidden rectangle and positions the full reference image at proportional negative offsets; mix-blend-mode: screen. No redrawn or generated logo.",
+  "intro": {
+    "asset": "/brand/cognitive-overdrive-intro-v2.mp4",
+    "duration_seconds": 10,
+    "logo_splash_seconds": 7.5,
+    "media_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "10.005000",
+        "size": "5190448"
+      }
+    },
+    "audio": "Original Possibility Signal theme is already embedded. Do not overlay a second intro theme on this clip.",
+    "source_geometry": "Frame-driven SVG projection of a rotating toroidal sculpture; not a supplied mesh or photorealistic 3D scene.",
+    "verification": "Copied SHA-256 matches original revision-2 manifest; full audio/video decode passed on 2026-10-27."
+  },
+  "music_source": {
+    "title": "Possibility Signal",
+    "version": "0.2.0",
+    "duration_seconds": 10,
+    "bpm": 128,
+    "sample_rate": 48000,
+    "sample_sources": [],
+    "method": "Original analog-style oscillator arrangement, generated percussion, stereo delay and diffused reverb.",
+    "theme_sha256": "6bf0d8fd58bd1a410ee387c2999a468955c46c42b10d53460c45a8288f37e13b",
+    "separate_audio_integration": "Managed separately from these unchanged brand assets."
+  },
+  "palette": {
+    "ink": "#070909",
+    "paper": "#eee9dd",
+    "lime": "#d7f44c",
+    "pink": "#ff349d",
+    "cyan": "#58c9ed"
+  },
+  "typography": [
+    "Anton",
+    "DM Sans"
+  ],
+  "boundaries": [
+    "The original source bundle contains personal narration and publishing controls that are not copied here.",
+    "The original introduction is retained as an existing creative treatment; no standalone vector logo or 3D mesh was found in the inspected source.",
+    "Conscience remains a distinct brand branch and is not substituted for the main identity."
+  ]
+}
