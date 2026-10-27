@@ -1,0 +1,20 @@
+{
+  "id": "01-possibility",
+  "input_sha256": "1014bf1e2962dd635de61a2bec05ef8b3d97d1ee7c57d8eb01b3531b188aca9c",
+  "audio_sha256": "2f4cfa66b16182a336eaa99e5e3fa3dd8f437dda6620cf8a496e722da622945c",
+  "model_id": "eleven_v3",
+  "voice_name": "Kersh",
+  "settings_submitted": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "use_speaker_boost": true,
+    "speed": 1.04
+  },
+  "direction": "warm",
+  "generation_requests": 1,
+  "alignment_duration_seconds": 39.2,
+  "bytes": 628235,
+  "post_generation_time_stretching": false,
+  "subjective_listening_review": "pending"
+}

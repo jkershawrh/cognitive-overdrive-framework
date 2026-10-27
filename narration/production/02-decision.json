@@ -1,0 +1,20 @@
+{
+  "id": "02-decision",
+  "input_sha256": "d05d4936c68e98745d36e2328ffc8cfc3fb062d241b7f076d8ccc0c56378e12c",
+  "audio_sha256": "7e2c6c925cb26236137af5245f5d11e6df9d6f2ea6778aa4ea230868bc2197bd",
+  "model_id": "eleven_v3",
+  "voice_name": "Kersh",
+  "settings_submitted": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "use_speaker_boost": true,
+    "speed": 1.04
+  },
+  "direction": "confident",
+  "generation_requests": 1,
+  "alignment_duration_seconds": 40.16,
+  "bytes": 643700,
+  "post_generation_time_stretching": false,
+  "subjective_listening_review": "pending"
+}

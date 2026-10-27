@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "description": "Narrated recording of the real local experience. Cues use the generated voice's character timestamps; fractions are used only for deliberate visual pacing.",
+  "chapters": [
+    {"track":"01-possibility","actions":[
+      {"cue":"Across Red Hat platforms","offset":-0.2,"name":"One platform story. Explicit hardware evidence."},
+      {"cue":"Welcome to Cognitive Overdrive.","kind":"close-case"}
+    ]},
+    {"track":"02-decision","actions":[
+      {"cue":"An executive needs","offset":-0.15,"role":"tab","name":"C-suite"},
+      {"cue":"A solution architect needs","offset":-0.15,"role":"tab","name":"Solution architects"},
+      {"cue":"Sales needs a story","offset":-0.15,"role":"tab","name":"Sales"},
+      {"cue":"Internal teams need","offset":-0.15,"role":"tab","name":"Internal teams"}
+    ]},
+    {"track":"03-work","actions":[
+      {"cue":"The Great CPU Bake Off","offset":-0.2,"kind":"case","project":"The Great CPU Bake Off"},
+      {"cue":"Edge Inference at Scale","offset":-0.2,"kind":"case","project":"Edge Inference at Scale"},
+      {"cue":"AERIS explores","offset":-0.2,"kind":"case","project":"AERIS"},
+      {"cue":"Triforce brings","offset":-0.2,"kind":"case","project":"Triforce"},
+      {"cue":"The platform story","kind":"close-case"}
+    ]},
+    {"track":"04-architecture","actions":[
+      {"fraction":0.08,"name":"Reveal boundary"},
+      {"fraction":0.27,"name":"Next question"},
+      {"fraction":0.3,"name":"Reveal boundary"},
+      {"fraction":0.49,"name":"Next question"},
+      {"fraction":0.52,"name":"Reveal boundary"},
+      {"fraction":0.72,"name":"Next question"},
+      {"fraction":0.75,"name":"Reveal boundary"}
+    ]},
+    {"track":"05-proof","actions":[
+      {"fraction":0.1,"name":"Run policy check"},
+      {"cue":"Change a condition","kind":"check","label":"Missing evidence"},
+      {"cue":"and watch the decision respond","name":"Run policy check"},
+      {"cue":"including the point where the system must stop","kind":"check","label":"Denied authority"},
+      {"cue":"The wider portfolio","name":"Run policy check"}
+    ]},
+    {"track":"06-multiplier","actions":[
+      {"cue":"Launchpad is central","name":"Launchpad","exact":true},
+      {"cue":"The same principle shapes","kind":"close-case"}
+    ]},
+    {"track":"07-return","actions":[]}
+  ]
+}

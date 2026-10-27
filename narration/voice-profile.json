@@ -1,0 +1,28 @@
+{
+  "provider": "ElevenLabs",
+  "voice_name": "Kersh",
+  "voice_id": "WQ3sRw57ETquvjONdorg",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "use_speaker_boost": true,
+    "speed": 1.04
+  },
+  "direction": "warm, confident",
+  "provenance": {
+    "cognitive_overdrive_preset_date": "2026-10-23",
+    "cognitive_reference_generation_id": "ihbh8HpnyVO3tfS3BIkw",
+    "cognitive_restoration": "ElevenLabs history: Restore settings only",
+    "cognitive_verified_fields": [
+      "voice_name",
+      "model_id",
+      "stability"
+    ],
+    "full_profile_source": "Great CPU Bake Off approved v3 voice production profile, 2026-10-22; referenced by the Cognitive Overdrive preset",
+    "full_profile_source_sha256": "02efdaf03c896fd52c7f977d9ef4ea7ee6f98e64d01fb785819a9b068326a00e",
+    "post_generation_time_stretching": false
+  }
+}

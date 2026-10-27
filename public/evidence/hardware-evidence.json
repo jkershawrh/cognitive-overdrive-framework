@@ -1,0 +1,310 @@
+{
+  "schema_version": "portfolio-hardware-evidence/v1",
+  "reviewed_on": "2026-10-26",
+  "scope": "Historical source and retained-artifact review. No hardware is connected to this portfolio and no comparison was rerun.",
+  "comparison_rule": "Vendor, CPU architecture, accelerator type, model and runtime are independent dimensions. Separate saved runs are not a simultaneous cross-vendor benchmark.",
+  "vendors": [
+    {
+      "name": "Intel",
+      "label": "Xeon + Gaudi reference",
+      "state": "Documented reference and historical execution",
+      "description": "Triforce and Cost-Aware Inference document Xeon CPU and Gaudi inference paths. Model, placement and performance claims retain their original environment and conditions.",
+      "public_sources": [
+        "https://github.com/jkershawrh/triforce/blob/main/README.md",
+        "https://github.com/jkershawrh/cost-aware-inference-demo/blob/main/README.md"
+      ],
+      "evidence_state": "DOCUMENTED_REFERENCE"
+    },
+    {
+      "name": "AMD",
+      "label": "Recorded EPYC / Instinct runs",
+      "state": "Retained local evidence",
+      "description": "October 8 records identify observed EPYC 9965 and Instinct MI350P hardware. Later records pass named-case checks; earlier truncation failures remain retained. Exact support status is unknown.",
+      "public_sources": [
+        "https://github.com/jkershawrh/cost-aware-inference-demo"
+      ],
+      "public_artifact_note": "The repository is public, but these artifact paths were unavailable through the public GitHub contents endpoint during review. Metadata below summarizes retained source artifacts; raw content is not copied.",
+      "records": [
+        {
+          "artifact": "artifacts/amd-initial-untuned-fixed.json",
+          "sha256": "71dc99d11a7419c98796378cad4168af427c0414c150353be5d80ec7f234e96f",
+          "collected_at": "2026-10-08T14:57:08.268843+00:00",
+          "schema_version": "placement-evidence/v1",
+          "collection_mode": "live_single_environment",
+          "case_id": "discharge-stemi-001",
+          "hardware": [
+            {
+              "vendor": "amd",
+              "product": "EPYC 9965",
+              "tier": "cpu",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            },
+            {
+              "vendor": "amd",
+              "product": "Instinct MI350P",
+              "tier": "accelerator",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            }
+          ],
+          "policies": [
+            {
+              "policy": "cpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": false,
+              "completion_gate_failed": true
+            },
+            {
+              "policy": "gpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": false,
+              "completion_gate_failed": true
+            },
+            {
+              "policy": "heterogeneous",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            }
+          ]
+        },
+        {
+          "artifact": "artifacts/amd-tuned-current.json",
+          "sha256": "c0d8ac72230f96ed45a60a6ce7387f6b7bf19bc9e6e1a6ebe4afaf4716aa40e7",
+          "collected_at": "2026-10-08T14:59:50.300281+00:00",
+          "schema_version": "placement-evidence/v1",
+          "collection_mode": "live_single_environment",
+          "case_id": "discharge-stemi-001",
+          "hardware": [
+            {
+              "vendor": "amd",
+              "product": "EPYC 9965",
+              "tier": "cpu",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            },
+            {
+              "vendor": "amd",
+              "product": "Instinct MI350P",
+              "tier": "accelerator",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            }
+          ],
+          "policies": [
+            {
+              "policy": "cpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": false,
+              "completion_gate_failed": true
+            },
+            {
+              "policy": "gpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": false,
+              "completion_gate_failed": true
+            },
+            {
+              "policy": "heterogeneous",
+              "recorded_source_state": "live",
+              "case_checks_passed": false,
+              "completion_gate_failed": true
+            }
+          ]
+        },
+        {
+          "artifact": "artifacts/amd-summary1024-current.json",
+          "sha256": "3b9380766eacdabb10571bef13112b1e5ada6d23729ce759beb40fb336848448",
+          "collected_at": "2026-10-08T15:04:00.306638+00:00",
+          "schema_version": "placement-evidence/v1",
+          "collection_mode": "live_single_environment",
+          "case_id": "discharge-stemi-001",
+          "hardware": [
+            {
+              "vendor": "amd",
+              "product": "EPYC 9965",
+              "tier": "cpu",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            },
+            {
+              "vendor": "amd",
+              "product": "Instinct MI350P",
+              "tier": "accelerator",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            }
+          ],
+          "policies": [
+            {
+              "policy": "cpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            },
+            {
+              "policy": "gpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            },
+            {
+              "policy": "heterogeneous",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            }
+          ]
+        },
+        {
+          "artifact": "artifacts/amd-summary1024-fixed.json",
+          "sha256": "5be8098205dccaa7597e4373662e80d5582a7be9f0e12ae74065e33e194542c3",
+          "collected_at": "2026-10-08T15:04:54.377798+00:00",
+          "schema_version": "placement-evidence/v1",
+          "collection_mode": "live_single_environment",
+          "case_id": "discharge-stemi-001",
+          "hardware": [
+            {
+              "vendor": "amd",
+              "product": "EPYC 9965",
+              "tier": "cpu",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            },
+            {
+              "vendor": "amd",
+              "product": "Instinct MI350P",
+              "tier": "accelerator",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            }
+          ],
+          "policies": [
+            {
+              "policy": "cpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            },
+            {
+              "policy": "gpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            },
+            {
+              "policy": "heterogeneous",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            }
+          ]
+        },
+        {
+          "artifact": "artifacts/amd-summary1024-bakery.json",
+          "sha256": "2267107018e167f11c03a97ae96494658c6bd073915a23338b77ea605d3e95ff",
+          "collected_at": "2026-10-08T15:05:31.398929+00:00",
+          "schema_version": "placement-evidence/v1",
+          "collection_mode": "live_single_environment",
+          "case_id": "bakery-batch-001",
+          "hardware": [
+            {
+              "vendor": "amd",
+              "product": "EPYC 9965",
+              "tier": "cpu",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            },
+            {
+              "vendor": "amd",
+              "product": "Instinct MI350P",
+              "tier": "accelerator",
+              "identity_source": "observed",
+              "cpu_architecture": "x86_64",
+              "architecture_source": "observed",
+              "support_status": "unknown"
+            }
+          ],
+          "policies": [
+            {
+              "policy": "cpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            },
+            {
+              "policy": "gpu_only",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            },
+            {
+              "policy": "heterogeneous",
+              "recorded_source_state": "live",
+              "case_checks_passed": true,
+              "completion_gate_failed": false
+            }
+          ]
+        }
+      ],
+      "evidence_state": "RECORDED_LOCAL"
+    },
+    {
+      "name": "NVIDIA",
+      "label": "Historical H100 fleet proof",
+      "state": "Public historical documentation",
+      "description": "The fleet whitepaper records an August 2026 Intel CPU and NVIDIA H100 NVL three-cluster run. Its topology and signing contract are historical and superseded; it is not a current portfolio execution or vendor benchmark.",
+      "public_sources": [
+        "https://github.com/jkershawrh/llm-d-fleet/blob/main/docs/whitepaper/fleet-llm-d-whitepaper.md#556-3-cluster-cascade-soak-august-2026"
+      ],
+      "evidence_state": "HISTORICAL_PUBLIC"
+    },
+    {
+      "name": "Arm",
+      "label": "ARM64 release artifacts",
+      "state": "Packaging evidence; inference qualification pending",
+      "description": "The fleet v0.3.0 evidence package documents Linux ARM64 binaries and multi-architecture images. Cost-Aware supports explicit Arm64 endpoint metadata locally, but native Arm inference qualification remains outstanding. Packaging and local Apple/Arm functional work do not establish Arm server inference performance.",
+      "public_sources": [
+        "https://github.com/jkershawrh/llm-d-fleet/blob/main/docs/upstream/reviewer-evidence-package.md"
+      ],
+      "local_document_references": [
+        "cost-aware-inference-demo:docs/reference-architecture-and-client-guide.md#arm64-environment-adapter",
+        "cost-aware-inference-demo:docs/routing-experiment.md"
+      ],
+      "evidence_state": "PACKAGED_NATIVE_QUALIFICATION_PENDING"
+    }
+  ],
+  "launchpad": {
+    "label": "From capability to participant experience",
+    "workflow": [
+      "Request",
+      "Provision",
+      "Validate",
+      "Participant handoff",
+      "Reclaim"
+    ],
+    "description": "The documented pilot uses direct OpenShift execution and a shared catalog, with functional validation before participant handoff and target-aware reclaim. This proves a reusable delivery pattern; attendance, current health and customer outcomes are separate evidence.",
+    "public_sources": [
+      "https://github.com/rhpds/launchpad"
+    ]
+  }
+}

@@ -1,0 +1,978 @@
+{
+  "schema_version": "portfolio-evidence/v1",
+  "reviewed_on": "2026-10-26",
+  "profile": {
+    "display_name": "Jonathan Kershaw",
+    "authorship_reference": {
+      "repository": "https://github.com/jkershawrh/triforce",
+      "document": "demo/community/blog-post.md",
+      "statement": "Built by Jonathan Kershaw (Red Hat)."
+    }
+  },
+  "method": {
+    "scope": "Read-only documentation and source-layout inspection. Public repository visibility checked separately through GitHub metadata.",
+    "runtime": "No underlying project service or test suite was executed in this inventory.",
+    "versions": "The dated inventory is versioned with this repository. Public repository links are navigation references, not immutable runtime qualification.",
+    "impact": "No independent evidence of revenue, customer adoption, savings or production efficacy is claimed.",
+    "media": "Selected existing films and screenshots were inspected separately. Their source labels remain meaningful; embedded clips are recorded demonstrations, never current-session execution."
+  },
+  "narration_authority": "Voice preset and generation provenance belong to public/narration/manifest.json and the narration documentation. Historical research presets are intentionally omitted.",
+  "projects": [
+    {
+      "id": "cost-aware",
+      "inventory_id": "cost-aware-inference-demo",
+      "title": "Cost-Aware Inference",
+      "category": "Applied AI",
+      "public_repository": "https://github.com/jkershawrh/cost-aware-inference-demo",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "story.brief.yaml",
+        "docs/reference-architecture-and-client-guide.md",
+        "services/proof-api",
+        "src",
+        "demos/ministry"
+      ],
+      "audience": [
+        "C-suite",
+        "platform leaders",
+        "solution architects",
+        "application owners",
+        "sales"
+      ],
+      "problem": "Hardware speed alone cannot answer what an accepted completed business task costs.",
+      "implemented": "An interactive presentation and Python proof service compare healthcare or financial-services workloads across CPU, accelerator and heterogeneous paths.",
+      "workflow": "Choose Healthcare or Financial Services and model endpoints, run CPU-only, accelerator-only and heterogeneous policies concurrently, then inspect prompts, responses, routing, case-specific evaluation and execution-cost assumptions.",
+      "consumption": "A seven-minute decision story, a guided engineering view and alternative creative treatments share the same proof contract. Costs remain an execution proxy; case scores are not general model-quality claims.",
+      "reusable_capability": "One typed proof API supports an engineering story, The Great CPU Bake Off and The Ministry of Sensible Compute; workload, presentation and placement policy are separable.",
+      "maturity": {
+        "label": "Implemented demo",
+        "detail": "Implemented React presentation and Python proof service with live endpoint configuration, labeled rehearsal fallback, deployment assets and visual tests."
+      },
+      "claim_boundaries": [
+        "Execution-cost proxy excludes utilization, queueing, power, cooling, acquisition, depreciation and operations.",
+        "A comparison changes selected model plus policy, not hardware in isolation.",
+        "Quality score qualifies the named case; routing plan is warmed and cached, not freshly inferred per request."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "bakeoff",
+      "inventory_id": "great-cpu-bake-off",
+      "title": "The Great CPU Bake Off",
+      "category": "Applied AI",
+      "public_repository": "https://github.com/jkershawrh/great-cpu-bake-off",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "business-talk-track.md",
+        "business-rehearsal.md",
+        "src",
+        "artifacts/business-stage-1080p"
+      ],
+      "audience": [
+        "C-suite",
+        "budget owners",
+        "sales",
+        "solution architects",
+        "application teams"
+      ],
+      "problem": "Compute placement is difficult to explain when the story begins with model inventories instead of a useful business result.",
+      "implemented": "A separate seven-act React and Motion experience translates the Cost-Aware proof API into a pâtisserie competition, with original campaign artwork, progressive architecture and business/technical audience modes.",
+      "workflow": "Select a healthcare, financial-services or manufacturing workload; run CPU, accelerator and blended policies concurrently; inspect actual answers and named-case checks; compare measured task time and modeled execution cost.",
+      "consumption": "A five-minute business story, interactive presentation and detailed engineering view reuse the same underlying proof. Live, rehearsal and unavailable lanes stay distinct. Recorded films show prior demonstrations; this portfolio does not rerun their results.",
+      "reusable_capability": "One source proof contract supports multiple creative treatments and audience depths. Switching the story lens preserves the same session results, source labels, model identities and evidence.",
+      "maturity": {
+        "label": "Implemented presentation",
+        "detail": "Separate React/Motion creative presentation and film treatments; Cost-Aware remains the engineering reference and proof API. Original business-stage rehearsal captures exist. No backend was executed during portfolio review."
+      },
+      "claim_boundaries": [
+        "Live responses, rehearsal fixtures and unavailable hardware remain explicitly labeled. Rehearsal metrics cannot win a live comparison.",
+        "Case-check scores qualify the selected demonstration, not general answer accuracy. Recovery reasoning remains pending review and receives no winner.",
+        "Task time sums execution and routing rather than end-to-end wall clock. Modeled execution cost is not full TCO or a supplier quote.",
+        "The campaign title and calligraphic typeface retain source-documented brand and trademark review before external launch.",
+        "Creative treatments reuse the Cost-Aware runtime; they are not independent platform or hardware-validation claims."
+      ],
+      "portfolio_state": "Source-backed case summary and recorded demonstration excerpts; underlying runtime is not connected."
+    },
+    {
+      "id": "triforce",
+      "inventory_id": "triforce",
+      "title": "Triforce",
+      "category": "Applied AI",
+      "public_repository": "https://github.com/jkershawrh/triforce",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "AGENTS.md",
+        "services",
+        "frontend",
+        "modules",
+        "tests/validation_matrix.yaml",
+        "demo/community/blog-post.md"
+      ],
+      "audience": [
+        "C-suite",
+        "AI platform leaders",
+        "solution architects",
+        "developers",
+        "sales"
+      ],
+      "problem": "One model and one compute tier do not fit every step of an enterprise workload.",
+      "implemented": "Python, Java and Go services, a React experience, MCP tools, semantic routing, selectable optimization modules and hands-on labs connect healthcare and financial-services scenarios.",
+      "workflow": "Trace a clinical NLP or financial-services task across Python, Java and Go services; inspect semantic routing, MCP tools, CPU/accelerator placement, workflow evidence and configurable optimization modules.",
+      "consumption": "Use a guided demo, an interactive architecture or a hands-on lab. Historical benchmarks retain their named environment; the llm-d module remains roadmap. This portfolio does not run the platform.",
+      "reusable_capability": "A common application boundary, contract-first services, selectable modules and parallel business narratives support multiple audiences and industry scenarios.",
+      "maturity": {
+        "label": "Implemented platform",
+        "detail": "Implemented polyglot demo platform with React UI, service code, local orchestration, Helm deployment, labs and documented historical benchmark results; no current runtime revalidation."
+      },
+      "claim_boundaries": [
+        "Avoid presenting README historical performance numbers as current measurements.",
+        "CPU $0/token in a supplied service does not mean zero infrastructure cost.",
+        "llm-d disaggregated inference is marked roadmap in the inspected README."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "edge",
+      "inventory_id": "edge-inference-at-scale",
+      "title": "Edge Inference at Scale",
+      "category": "Applied AI",
+      "public_repository": "https://github.com/jkershawrh/edge-inference-at-scale",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "AGENTS.md",
+        "backend",
+        "frontend",
+        "demo",
+        "chart",
+        "tests"
+      ],
+      "audience": [
+        "public-sector and community stakeholders",
+        "solution architects",
+        "edge platform teams",
+        "sales"
+      ],
+      "problem": "Useful information must remain reachable when connectivity and compute are constrained.",
+      "implemented": "A message-to-knowledge pipeline combines privacy filtering, Redis Streams, retrieval, an interchangeable local-model boundary and fleet-oriented deployment assets.",
+      "workflow": "Send a simulated message through transport, privacy filtering, Redis Streams, retrieval and optional local inference; route a confident short retrieval result directly, and inspect fleet and node behavior.",
+      "consumption": "Explore a conference-assistant demo, inspect the node/fleet architecture or adapt the reference. Development SMS is simulated; BitNet is a baseline, not a selected field model or evidence of real-world efficacy.",
+      "reusable_capability": "Transport, corpus, local model provider and operating environment are interchangeable boundaries; conference assistance demonstrates the same pattern proposed for other domains.",
+      "maturity": {
+        "label": "Reference implementation",
+        "detail": "Implemented reference architecture and demo with service code, simulated SMS, dashboard, local/fleet compose, Helm, corpus and recorded presentation assets. Physical field deployment is not established by this inspection."
+      },
+      "claim_boundaries": [
+        "SMS is simulated/Twilio-ready in the development baseline.",
+        "BitNet is a current baseline, not a selected production model.",
+        "Do not infer medical, humanitarian or field efficacy from the conference-assistant demonstration."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "praxis",
+      "inventory_id": "praxis-lab",
+      "title": "Praxis Gateway Lab",
+      "category": "Applied AI",
+      "public_repository": "https://github.com/jkershawrh/praxis-lab",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "DESIGN.md",
+        "clients",
+        "runtime-automation",
+        "src",
+        "tests/validation_matrix.yaml"
+      ],
+      "audience": [
+        "solution architects",
+        "application teams",
+        "platform teams",
+        "security reviewers",
+        "sales"
+      ],
+      "problem": "Provider URLs, model names and upstream credentials duplicated across applications make change expensive and difficult to govern.",
+      "implemented": "A gateway lab and Java, Python and TypeScript clients demonstrate a stable logical-model contract, trace correlation, credential isolation and red-to-green validation.",
+      "workflow": "Call one logical model from Java, Python and TypeScript through a platform-managed gateway; inspect trace correlation, backend portability, credential isolation and red-to-green validation.",
+      "consumption": "An architect can guide a customer through the proof or hand it into a workshop. Praxis is an upstream project; this lab does not claim authorship of the gateway or product support. Production identity, tenancy and lifecycle controls remain customer design work.",
+      "reusable_capability": "A stable OpenAI-compatible application contract and platform-owned routing allow approved model services to change independently of application integrations.",
+      "maturity": {
+        "label": "Implemented reference",
+        "detail": "Implemented OpenShift reference and learner experience, client examples, validation automation and CI gateway checks. Upstream Praxis is not presented as a supported Red Hat product."
+      },
+      "claim_boundaries": [
+        "Evaluation baseline requires additional production identity, tenancy, TLS, policy and lifecycle design.",
+        "Track 3 PPE-to-ledger material remains preview pending upstream conformance.",
+        "Do not claim authorship of upstream Praxis itself."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "launchpad",
+      "inventory_id": "launchpad",
+      "title": "Launchpad",
+      "category": "Platforms",
+      "public_repository": "https://github.com/rhpds/launchpad",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "docs/persona-onboarding.md",
+        "docs/catalog-onboarding.md",
+        "docs/presenter-demo-walkthrough.md",
+        "certification",
+        "backend",
+        "frontend"
+      ],
+      "audience": [
+        "enablement leaders",
+        "instructors",
+        "content integrators",
+        "platform operators",
+        "sales engineering"
+      ],
+      "problem": "An effective experience must be repeatably provisioned, qualified, delivered and reclaimed for many participants.",
+      "implemented": "A self-service lab platform connects catalog intake, individual and workshop provisioning, participant entry points, qualification probes and target-aware reclaim.",
+      "workflow": "Request an individual lab or multi-seat workshop, validate each environment before handoff, open a participant entry point, run functional certification probes and reclaim from the persisted execution target.",
+      "consumption": "Participants receive a lab; instructors manage a workshop; integrators contribute content; operators review lifecycle evidence. The source documents an internal deployed pilot. Current health, attendance and business value are not measured by this portfolio.",
+      "reusable_capability": "Catalog intake, contracts, lifecycle automation, visual guides and staged certification let new experiences use a shared delivery platform.",
+      "maturity": {
+        "label": "Documented pilot",
+        "detail": "Implemented internal self-service platform with a documented deployed pilot, direct OpenShift execution, catalog and certification runner. Current health and event outcomes were not rechecked."
+      },
+      "claim_boundaries": [
+        "README describes a pilot, not blanket production qualification.",
+        "Seat plans and historical event records do not establish attendance, completion or business value.",
+        "No savings, adoption or revenue outcome is asserted."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "earned-authority",
+      "inventory_id": "earned-authority-kit",
+      "title": "Earned Authority",
+      "category": "Governance",
+      "public_repository": "https://github.com/jkershawrh/earned-authority-kit",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "docs/BOUNDARIES.md",
+        "docs/ROADMAP.md",
+        "deploy/reference/README.md",
+        "demos/pythonized",
+        "evaluations"
+      ],
+      "audience": [
+        "technical leadership",
+        "agent platform architects",
+        "governance reviewers"
+      ],
+      "problem": "An agent's authority should follow demonstrated capability and remain selective, bounded and reversible.",
+      "implemented": "An integration kit connects deterministic qualification, Passport, Ledger, Cascade and GCL to bounded grants, mutation fencing, independent readback and requalification.",
+      "workflow": "Qualify a deterministic procedure, grant bounded authority, fence mutation, independently read back the result, withdraw a specific permission and require requalification.",
+      "consumption": "Run a local reference journey or inspect the cut-paper interpretation of its fixture. Recorded milestones cover local, connected-service and same-host installation behavior. Business-value comparison, independent installation and broader operations gates remain open.",
+      "reusable_capability": "Integrates Foundation, Passport, Ledger, Cascade and deterministic GCL through explicit contracts; an independent presentation treatment reuses the same local runtime.",
+      "maturity": {
+        "label": "Validated local reference",
+        "detail": "Validated local reference kit with recorded fixture, canonical-service and fresh same-host installation milestones. README reports distinct component, deployment and behavior suites; full roadmap remains AMBER."
+      },
+      "claim_boundaries": [
+        "Business value evaluation is unexecuted.",
+        "Independent installation, operations, broader deployment and robotics gates remain open.",
+        "The cut-paper presentation runs the M1 local fixture, not the connected canonical services."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "stargate",
+      "inventory_id": "StarGate",
+      "title": "StarGate",
+      "category": "Platforms",
+      "public_repository": "https://github.com/rhpds/stargate",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "AGENTS.md",
+        "collectors",
+        "engine",
+        "rubrics",
+        "frontend",
+        "tests"
+      ],
+      "audience": [
+        "operations leaders",
+        "platform engineers",
+        "event operators",
+        "internal technical leadership"
+      ],
+      "problem": "Provisioned environments can appear ready while the learner's actual path is broken.",
+      "implemented": "Collectors, readiness rubrics, a React dashboard, durable investigations and a gated remediation catalog connect multiple operational evidence sources.",
+      "workflow": "Collect multi-source lab and cluster evidence, evaluate readiness rubrics, classify unfamiliar failures, open durable investigations and gate proposed remediation with auditability.",
+      "consumption": "Operators inspect readiness and failure evidence across labs and workshops. Implementation and deployment assets are documented; current fleet health, executed remediation and operational savings were not independently revalidated.",
+      "reusable_capability": "Collectors, normalization, readiness rubrics, a remediation catalog and evidence-driven review separate the operating model from a single demo or event.",
+      "maturity": {
+        "label": "Implemented platform",
+        "detail": "Implemented continuous-operations platform with FastAPI, React, collectors, readiness engine, deployment packaging and tests; runtime availability and remediation outcomes not revalidated."
+      },
+      "claim_boundaries": [
+        "The inspected source describes multi-cluster monitoring; no current fleet count is independently measured here.",
+        "Configured execution modes are not evidence that actions ran or solved an incident.",
+        "No downtime or labor savings claim."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "cascade",
+      "inventory_id": "cascade-compression-oss",
+      "title": "Cascade Compression",
+      "category": "Research",
+      "public_repository": "https://github.com/jkershawrh/cascade-compression",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "docs/architecture.md",
+        "docs/evidence-register.md",
+        "docs/roadmap.md",
+        "cascade_compression",
+        "contracts",
+        "tests"
+      ],
+      "audience": [
+        "platform leaders",
+        "operations architects",
+        "AI engineers",
+        "internal technical leadership"
+      ],
+      "problem": "Repeated routine signals can consume model capacity while important or ambiguous signals still need attention.",
+      "implemented": "A domain-neutral signal engine combines deterministic handling, survivor classification, candidate-rule promotion, shadow checks, demotion and memory boundaries.",
+      "workflow": "Normalize input signals, apply deterministic handling, preserve survivors, classify, propose inspectable rules, qualify activation, shadow-check and revoke rules, and retain qualified memory.",
+      "consumption": "Run the public service/dashboard or explore contracts and synthetic examples. The public candidate demonstrates mechanics and packaging; private pilot percentages do not qualify this artifact. No production effectiveness or zero-miss claim is made.",
+      "reusable_capability": "The domain-neutral Signal protocol, pluggable classifiers, public contracts and governed rule lifecycle separate reusable mechanics from domain-specific judgment.",
+      "maturity": {
+        "label": "Incubating OSS",
+        "detail": "Clean public OSS distribution; stable 0.1.0 and an incubating 0.2.0rc7 candidate described locally. Public mechanics and packaging exist; classification effectiveness and production value remain unqualified."
+      },
+      "claim_boundaries": [
+        "Local restricted production-proof implementation is different and cannot qualify the OSS artifact.",
+        "Historical compression percentages are not portfolio outcome claims.",
+        "No zero-miss, staging-readiness, production-readiness or customer-outcome claim."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "gcl",
+      "inventory_id": "gcl-oss",
+      "title": "GCL OSS",
+      "category": "Governance",
+      "public_repository": "https://github.com/jkershawrh/gcl-oss",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "src",
+        "schemas",
+        "tests",
+        "docs/qualification"
+      ],
+      "audience": [
+        "AI platform architects",
+        "governance engineers",
+        "technical leadership"
+      ],
+      "problem": "Machine-generated evidence should not silently become authority to change a system.",
+      "implemented": "A vendor-neutral kernel validates evidence, derives constraints and objectives, compares proposals, runs falsification checks and signs expiring decision packages.",
+      "workflow": "Normalize evaluation evidence, derive constraints and objectives, generate alternatives, falsify a candidate and sign an expiring decision package for a separate authority to review.",
+      "consumption": "Use the offline demonstration or inspect EvalHub/TrustyAI adapter qualification. Proposals remain separate from authorization and execution. Durable distributed idempotency and production qualification remain open.",
+      "reusable_capability": "Vendor-neutral extension ports support evidence producers, policy, planners, falsification, signatures, proposal consumers and telemetry.",
+      "maturity": {
+        "label": "Alpha reference kernel",
+        "detail": "Alpha reference kernel, with executable offline demo and documented isolated OpenShift contract qualification for EvalHub and TrustyAI adapters; no production release."
+      },
+      "claim_boundaries": [
+        "Proposal-only; does not own source truth, execution, rollback or outcomes.",
+        "Durable distributed idempotency remains roadmap work.",
+        "Local and isolated integration qualification is not production readiness."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "passport",
+      "inventory_id": "agent-passport",
+      "title": "Agent Passport",
+      "category": "Governance",
+      "public_repository": "https://github.com/jkershawrh/agent-passport",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "internal",
+        "proto",
+        "examples",
+        "tests"
+      ],
+      "audience": [
+        "agent architects",
+        "security engineers",
+        "platform teams"
+      ],
+      "problem": "Workload identity does not answer whether an agent may perform a particular action on a resource right now.",
+      "implemented": "A Go service issues, verifies, expires and revokes scoped credentials through explicit registry, signing, policy, event and ledger interfaces.",
+      "workflow": "Issue a signed scoped credential, verify its action and resource boundaries, expire or revoke it, and record lifecycle events through explicit integration interfaces.",
+      "consumption": "Explore the standalone service, Docker Compose journey or gRPC contract. Demo stubs are distinct from enterprise integrations; scope verification does not replace workload identity or network enforcement.",
+      "reusable_capability": "Go interfaces separate identity, signing, registry, policy bundles, outbox and ledger integration from the authorization lifecycle.",
+      "maturity": {
+        "label": "Implemented reference",
+        "detail": "Implemented standalone and Docker Compose/gRPC service with in-memory stubs and tests; target enterprise integrations remain distinct from demo stubs."
+      },
+      "claim_boundaries": [
+        "Five integration ports have working standalone stubs; do not imply every external integration is live.",
+        "Scope verification is separate from workload identity and network enforcement.",
+        "No blanket production or security certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "ledger",
+      "inventory_id": "are-immutable-ledger",
+      "title": "Immutable Ledger",
+      "category": "Governance",
+      "public_repository": "https://github.com/jkershawrh/are-immutable-ledger",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "src",
+        "proto",
+        "adapters",
+        "tests/EVIDENCE_MATRIX.md",
+        "proof-explorer"
+      ],
+      "audience": [
+        "platform architects",
+        "governance engineers",
+        "security reviewers"
+      ],
+      "problem": "Independent systems need to retrieve and inspect assertions without pretending that storage proves their truth.",
+      "implemented": "Rust and PostgreSQL support append-only entries, versioned hash chains, portable proof receipts, correlated queries, SDKs and cross-system adapters.",
+      "workflow": "Append an event, issue a portable receipt, verify its canonical hash and chain, query by correlation or source, and inspect linked events across independent writers.",
+      "consumption": "Inspect a receipt, replay a demonstration or integrate through gRPC. Receipts establish a submitted assertion and tamper-evidence; they do not prove the assertion occurred or was correct. Historical checks are tied to their original commit and environment.",
+      "reusable_capability": "A gRPC evidence contract, versioned proof envelope and adapters allow each producer to retain its own identifiers and event schema.",
+      "maturity": {
+        "label": "Implemented service",
+        "detail": "Implemented Rust/PostgreSQL service, SDKs, adapters, frontend and demo tooling; README retains a historical 146/146 automated evidence snapshot for a named commit/environment."
+      },
+      "claim_boundaries": [
+        "Receipt proves submission and tamper-evidence, not that an asserted check occurred or its result is true.",
+        "Correlation does not prove identity or causality.",
+        "Historical test counts are not current deployment guarantees."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "aeris",
+      "inventory_id": "aeris",
+      "title": "AERIS",
+      "category": "Research",
+      "public_repository": null,
+      "source_access": "Public source access not confirmed; no repository link exposed",
+      "source_documents": [],
+      "audience": [
+        "C-suite",
+        "manufacturing and aerospace stakeholders",
+        "solution architects",
+        "sales",
+        "technical leadership"
+      ],
+      "problem": "A quality engineer facing an obstruction needs a clear way to explore recovery, evidence and a scoped pilot decision.",
+      "implemented": "A Rust/Axum and React/Three.js concept combines an articulated inspection cell, bounded planning fixtures, failure injection, persistent records, causal diagrams and buyer-specific routes.",
+      "workflow": "Introduce an inspection obstruction, compare three bounded rehearsal strategies, inject failure conditions, inspect articulated 3D and architecture views, replay decisions and connect them to a buyer-specific business case.",
+      "consumption": "Explore a seven-minute narrated story, a 3D workbench or a scoped-pilot conversation. The interactive runtime connects no physical robot, camera, JEPA model or accelerator. Separate experiments do not establish learned-planning advantage or physical inspection qualification.",
+      "reusable_capability": "Seven-minute story, causal diagrams, 3D picking, evidence replay, audience routes and a synchronized Kersh narration connect one technical mechanism to multiple decision makers.",
+      "maturity": {
+        "label": "Runnable concept",
+        "detail": "Runnable React/Three.js and Rust/Axum concept demonstration with persistent SQLite receipts and a narrated film; separate recorded experiments retain explicit failures and qualification gaps."
+      },
+      "claim_boundaries": [
+        "Local README identifies repository as private; GitHub connector returned 404, so no public source link.",
+        "Interactive runtime has no connected physical robot, camera, JEPA model or Intel accelerator.",
+        "Recorded separate CPU experiments do not establish JEPA benefit, physical inspection qualification or real-time guarantees.",
+        "No savings or throughput impact claimed."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "sovereign-ai-101",
+      "inventory_id": "sovereign-ai-101",
+      "title": "Sovereign AI 101",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/sovereign-ai-101",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "story.brief.yaml",
+        "demo-blueprint.yaml",
+        "src",
+        "server"
+      ],
+      "audience": [
+        "solution architects",
+        "platform engineers",
+        "security reviewers",
+        "technical decision makers"
+      ],
+      "problem": "A useful answer does not show where it ran, which policy decided or what evidence remains.",
+      "implemented": "Implemented presentation and service source; reviewed discovery documents describe source limitations and do not certify live deployment.",
+      "workflow": "Trace a request across input, policy, model, evidence and human review; compare ordinary and injection-pattern inputs.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "A progressive seven-scene story, typed qualification contract, separate Showroom lab and evidence-aware handoff provide a repeatable way to turn a domain into an enablement journey.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Implemented presentation and service source; reviewed discovery documents describe source limitations and do not certify live deployment."
+      },
+      "claim_boundaries": [
+        "The source blueprint identifies fail-open and evidence limitations in the upstream lab; do not claim residency or confidential execution from labels.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "sovereign-ai-201",
+      "inventory_id": "sovereign-ai-201",
+      "title": "Sovereign AI 201",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/sovereign-ai-201",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "solution architects",
+        "platform engineers",
+        "security reviewers",
+        "technical decision makers"
+      ],
+      "problem": "A policy promise needs executable request and response boundaries.",
+      "implemented": "Factory candidate with deterministic rehearsal, presentation and 75–90 minute Showroom lab.",
+      "workflow": "Author contracts, Secret references, Service and NetworkPolicy; qualify allowed, denied, malformed, injection-blocked and unavailable cases.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "A progressive seven-scene story, typed qualification contract, separate Showroom lab and evidence-aware handoff provide a repeatable way to turn a domain into an enablement journey.",
+      "maturity": {
+        "label": "Factory candidate",
+        "detail": "Factory candidate with deterministic rehearsal, presentation and 75–90 minute Showroom lab."
+      },
+      "claim_boundaries": [
+        "LIVE inference requires runtime identities and dependencies; no certification or confidential-execution claim.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "sovereign-ai-301",
+      "inventory_id": "sovereign-ai-301",
+      "title": "Sovereign AI 301",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/sovereign-ai-301",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "solution architects",
+        "platform engineers",
+        "security reviewers",
+        "technical decision makers"
+      ],
+      "problem": "Hardware capability alone is not a trust chain.",
+      "implemented": "Published signed noncertified REHEARSAL candidates; deterministic qualifier and independent lab.",
+      "workflow": "Inspect a synthetic hardware-to-attestation-to-policy-gated-resource trust chain.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "A progressive seven-scene story, typed qualification contract, separate Showroom lab and evidence-aware handoff provide a repeatable way to turn a domain into an enablement journey.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Published signed noncertified REHEARSAL candidates; deterministic qualifier and independent lab."
+      },
+      "claim_boundaries": [
+        "No current TDX quote, confidential runtime or live model execution is established.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "sovereign-ai-401",
+      "inventory_id": "sovereign-ai-401",
+      "title": "Sovereign AI 401",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/sovereign-ai-401",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "solution architects",
+        "platform engineers",
+        "security reviewers",
+        "technical decision makers"
+      ],
+      "problem": "A trust chain must remain reviewable when evidence changes or expires.",
+      "implemented": "Factory implementation with deterministic passing REHEARSAL journey; not certified, orderable or promoted.",
+      "workflow": "Verify supplied runtime identity, appraise TDX evidence, bind protected access to approved measurements and refuse stale or mismatched evidence.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "A progressive seven-scene story, typed qualification contract, separate Showroom lab and evidence-aware handoff provide a repeatable way to turn a domain into an enablement journey.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Factory implementation with deterministic passing REHEARSAL journey; not certified, orderable or promoted."
+      },
+      "claim_boundaries": [
+        "LIVE requires a confidential guest and current verified quote; host capability is insufficient.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "sovereign-ai-501",
+      "inventory_id": "sovereign-ai-501",
+      "title": "Sovereign AI 501",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/sovereign-ai-501",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "solution architects",
+        "platform engineers",
+        "security reviewers",
+        "technical decision makers"
+      ],
+      "problem": "A single workload demonstration does not qualify a changing multi-node fleet.",
+      "implemented": "Factory candidate; included results are REHEARSAL with separate presentation and lab.",
+      "workflow": "Exercise policy rollout, freshness, revocation, dependency failure, correlated evidence, concurrency and human promotion review.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "A progressive seven-scene story, typed qualification contract, separate Showroom lab and evidence-aware handoff provide a repeatable way to turn a domain into an enablement journey.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Factory candidate; included results are REHEARSAL with separate presentation and lab."
+      },
+      "claim_boundaries": [
+        "No live TDX guests, Trustee/KBS, resource release or model execution is directly observed by the included runtime.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "virtualization-ai-foundations",
+      "inventory_id": "virtualization-ai-foundations",
+      "title": "Virtualization + AI Foundations",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/virtualization-ai-foundations",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "C-suite",
+        "solution architects",
+        "VM platform engineers",
+        "application owners"
+      ],
+      "problem": "A critical VM application needs a path to governed AI without assuming a complete rewrite.",
+      "implemented": "Level-101 candidate with seven-scene presentation, 60–75 minute lab, adapter, Helm and signed artifact pipeline.",
+      "workflow": "Trace a VM application request through Service and validation adapter to an approved inference endpoint and back to a human decision owner.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "Shared narrative cadence and typed evidence contract extend from one request to construction, operation and fleet qualification while preserving separate learner work and human authority.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Level-101 candidate with seven-scene presentation, 60–75 minute lab, adapter, Helm and signed artifact pipeline."
+      },
+      "claim_boundaries": [
+        "Default runtime is rehearsal; endpoint/model/provider/hardware declarations are required before live claims.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "virtualization-ai-201",
+      "inventory_id": "virtualization-ai-201",
+      "title": "Virtualization + AI 201",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/virtualization-ai-201",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "C-suite",
+        "solution architects",
+        "VM platform engineers",
+        "application owners"
+      ],
+      "problem": "Architecture understanding must become a working integration the learner can defend.",
+      "implemented": "Level-201 factory candidate with reference runtime, separate build lab and explicit red-to-green construction work.",
+      "workflow": "Author contracts and a VM client, wire references and allow-list networking, qualify healthy/unavailable behavior and produce an evidence map and cleanup receipt.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "Shared narrative cadence and typed evidence contract extend from one request to construction, operation and fleet qualification while preserving separate learner work and human authority.",
+      "maturity": {
+        "label": "Factory candidate",
+        "detail": "Level-201 factory candidate with reference runtime, separate build lab and explicit red-to-green construction work."
+      },
+      "claim_boundaries": [
+        "Model cannot mutate infrastructure, approve promotion or certify its output; rehearsal is visibly labeled.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "virtualization-ai-301",
+      "inventory_id": "virtualization-ai-301",
+      "title": "Virtualization + AI 301",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/virtualization-ai-301",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "C-suite",
+        "solution architects",
+        "VM platform engineers",
+        "application owners"
+      ],
+      "problem": "Declared placement and identity must be checked together with the allowed network path.",
+      "implemented": "Level-301 deterministic factory candidate; read-only cluster inventory is documented, no 301 workload deployment claimed.",
+      "workflow": "Evaluate workload identity, declared-versus-observed placement, correlated evidence and ALLOW_REVIEW/REFUSE/ABSTAIN outcomes.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "Shared narrative cadence and typed evidence contract extend from one request to construction, operation and fleet qualification while preserving separate learner work and human authority.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Level-301 deterministic factory candidate; read-only cluster inventory is documented, no 301 workload deployment claimed."
+      },
+      "claim_boundaries": [
+        "Factory results do not prove live VM/network/inference/Intel placement; no cost, performance or migration claim.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "virtualization-ai-401",
+      "inventory_id": "virtualization-ai-401",
+      "title": "Virtualization + AI 401",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/virtualization-ai-401",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "C-suite",
+        "solution architects",
+        "VM platform engineers",
+        "application owners"
+      ],
+      "problem": "The application and its evidence must survive maintenance and failures.",
+      "implemented": "Level-401 rehearsal candidate; durable seven-state evidence journey, no infrastructure mutation.",
+      "workflow": "Inspect readiness, choose a governed day-two action, evaluate continuity and stop or recover when evidence is incomplete.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "Shared narrative cadence and typed evidence contract extend from one request to construction, operation and fleet qualification while preserving separate learner work and human authority.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Level-401 rehearsal candidate; durable seven-state evidence journey, no infrastructure mutation."
+      },
+      "claim_boundaries": [
+        "Not orderable/certified/promoted; actual migration, recovery and external action remain human approved.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "virtualization-ai-501",
+      "inventory_id": "virtualization-ai-501",
+      "title": "Virtualization + AI 501",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/virtualization-ai-501",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "workload",
+        "contracts",
+        "showroom",
+        "src"
+      ],
+      "audience": [
+        "C-suite",
+        "solution architects",
+        "VM platform engineers",
+        "application owners"
+      ],
+      "problem": "One working VM does not establish a fleet's capacity, placement or failure containment.",
+      "implemented": "Level-501 factory candidate with durable ledger, seven-scene story, separate lab and signed packaging gates.",
+      "workflow": "Move through DISCOVER, BASELINE, MIGRATE, DISRUPT, CORRELATE, QUALIFY and HANDOFF using supplied multi-VM evidence.",
+      "consumption": "A concise guided presentation leads into a separate Showroom lab and explicit evidence handoff. Factory checks demonstrate the candidate; destination-specific certification, deployment authority and promotion remain separate.",
+      "reusable_capability": "Shared narrative cadence and typed evidence contract extend from one request to construction, operation and fleet qualification while preserving separate learner work and human authority.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Level-501 factory candidate with durable ledger, seven-scene story, separate lab and signed packaging gates."
+      },
+      "claim_boundaries": [
+        "Rehearsal fixture quantities are not production performance; adapter has no mutation, certification or promotion authority.",
+        "Factory/source evidence is not destination-specific certification."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "agentic",
+      "inventory_id": "agentic-ai-101",
+      "title": "Agentic AI 101",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/agentic-ai-101",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "story.brief.yaml",
+        "src",
+        "service",
+        "showroom"
+      ],
+      "audience": [
+        "solution architects",
+        "AI engineers",
+        "sales engineering"
+      ],
+      "problem": "A model response, a tool action and a human decision are different responsibilities.",
+      "implemented": "A seven-scene presentation, typed service, deterministic traces and separate learner journey explain Ask → Plan → Use → Prove → Decide → Record.",
+      "workflow": "Trace Ask → Plan → Use → Prove → Decide → Record across read-only and state-changing rehearsal paths.",
+      "consumption": "Begin with a guided explanation, then carry the same mental model into agent construction. Current proof is rehearsal; it does not establish live inference, hardware placement, autonomous action or production readiness. The catalog lifecycle remains draft.",
+      "reusable_capability": "One six-part mental model supports a concise presentation, a separate Showroom lab and a handoff to bounded agent construction.",
+      "maturity": {
+        "label": "Rehearsal candidate",
+        "detail": "Implemented seven-scene candidate, typed service, deterministic traces and recorded component/visual checks; Launchpad lifecycle is draft and not orderable."
+      },
+      "claim_boundaries": [
+        "REHEARSAL; no live model inference, Intel placement, autonomous action, performance or production readiness claim."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "agentic-601",
+      "inventory_id": "agentic-ai-601",
+      "title": "Agentic AI 601",
+      "category": "Enablement",
+      "public_repository": "https://github.com/jkershawrh/agentic-ai-601",
+      "source_access": "Public repository visibility confirmed",
+      "source_documents": [
+        "README.md",
+        "contracts",
+        "server",
+        "src",
+        "showroom"
+      ],
+      "audience": [
+        "agent platform architects",
+        "governance engineers",
+        "technical leadership"
+      ],
+      "problem": "A consequential agent loop needs bounded, reviewable and reversible authority.",
+      "implemented": "A presentation, separate lab and deterministic qualification service connect Signal → Decision → Action → Validate → Learn through authority and evaluation contracts.",
+      "workflow": "Trace Signal → Decision → Action → Validate → Learn, with one synthetic restart, deterministic qualification and automatic demotion on failed validation.",
+      "consumption": "Inspect a synthetic restart and its validation or demotion path. Production authority is disabled, external remediation is unimplemented and catalog certification is not earned. Human review owns any increase in authority.",
+      "reusable_capability": "Typed authority, evidence and evaluation contracts connect a narrative, lab and qualification service without granting the runtime authority to promote itself.",
+      "maturity": {
+        "label": "Research candidate",
+        "detail": "Research and qualification candidate; production execution disabled, external remediation unimplemented, catalog noncertified."
+      },
+      "claim_boundaries": [
+        "Permitted action is a synthetic restart simulation in the lab scope.",
+        "No production execution authority, ordering or certification.",
+        "Related governance concepts remain research integrations."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "sovereign",
+      "inventory_id": "sovereign-ai-sales",
+      "title": "Sovereign AI · Sales",
+      "category": "Enablement",
+      "public_repository": null,
+      "source_access": "Public source access not confirmed; no repository link exposed",
+      "source_documents": [],
+      "audience": [
+        "C-suite",
+        "business leaders",
+        "technology leaders",
+        "sales"
+      ],
+      "problem": "Buyers need to decide which AI boundary to own and validate first.",
+      "implemented": "A concise sales-entry presentation connects a business decision, causal architecture, synthetic trust chain, changed conditions and one technical handoff.",
+      "workflow": "Follow a business decision, progressive causal architecture, synthetic trust chain, changed measurement and unavailable verifier to one lab handoff.",
+      "consumption": "Present a guided buyer conversation and transition into Sovereign AI 101. Synthetic or unavailable evidence remains labeled; the experience makes no live confidential-computing claim. Public source access is not confirmed.",
+      "reusable_capability": "A sales-entry layer reuses the technical contract while changing the audience decision and depth.",
+      "maturity": {
+        "label": "Rehearsal sales story",
+        "detail": "Runnable source-backed sales presentation with labeled rehearsal/offline fallback and deployment assets; public repository access not confirmed."
+      },
+      "claim_boundaries": [
+        "Synthetic qualifier; no live confidential-computing claim.",
+        "No public source link because GitHub metadata returned 404."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    },
+    {
+      "id": "virtualization",
+      "inventory_id": "virtualization-ai-sales",
+      "title": "Virtualization + AI · Sales",
+      "category": "Enablement",
+      "public_repository": null,
+      "source_access": "Public source access not confirmed; no repository link exposed",
+      "source_documents": [],
+      "audience": [
+        "C-suite",
+        "business leaders",
+        "technology leaders",
+        "sales"
+      ],
+      "problem": "A buyer needs a credible modernization path for critical VM applications.",
+      "implemented": "A short sales presentation connects a modernization decision to architecture, workload identity, placement evidence, failure cases and one foundations-lab handoff.",
+      "workflow": "Follow a business decision, causal architecture, source-labeled contract, changed identity and missing placement evidence to one foundations-lab handoff.",
+      "consumption": "Use the narrative in customer discovery or an internal modernization pitch. Proof uses labeled rehearsal/offline data without its adapter; no savings or migration outcome is established. Public source access is not confirmed.",
+      "reusable_capability": "The same technical boundary supports a short sales conversation and deeper architect/learner experiences.",
+      "maturity": {
+        "label": "Rehearsal sales story",
+        "detail": "Runnable sales-entry presentation with deployment assets and rehearsal/offline fallback; public repository access not confirmed."
+      },
+      "claim_boundaries": [
+        "No proven modernization saving or migration result.",
+        "No public source link because GitHub metadata returned 404."
+      ],
+      "portfolio_state": "Source-backed case summary; underlying runtime is not connected."
+    }
+  ]
+}

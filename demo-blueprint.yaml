@@ -1,0 +1,101 @@
+version: 1
+status: reviewed
+source:
+  name: cognitive-overdrive-portfolio
+  kind: rough-idea
+  location: user brief plus inspected project artifacts
+  revision: iteration-1
+  discovered_at: 2026-10-27
+  inspected_artifacts:
+    - Cognitive Overdrive approved brand, local fonts and film voice configuration
+    - Triforce README and community authorship
+    - Portfolio repository inventory and source contracts
+    - Anthropic Applied AI Demo Engineer public role description
+  discrepancies:
+    - Implementation evidence does not establish production adoption or measured business impact.
+    - Browser policy demonstration is a simulation, not a connection to project infrastructure.
+    - Research concepts and rehearsal labs retain their maturity labels.
+intent:
+  primary_user: Hiring reviewers, executives, solution architects, sales and internal champions
+  workload: Interactive portfolio and reusable narrative demo framework
+  recognized_problem: Technical possibility needs a clear decision, credible proof and repeatable delivery.
+  audience_decision: Invite Jonathan Kershaw to demonstrate how he builds useful and reusable technical stories.
+  desired_outcome: Inspect source-backed work and discuss a concrete business problem.
+architecture:
+  actors: [viewer, demo-engineer, operator, hiring-reviewer]
+  runtime_objects: [story-config, react-engine, local-assets, voice-tracks, source-catalog, rehearsal-policy]
+  boundaries: [browser-session, external-source-repository, offline-narration-generation]
+  external_dependencies: [GitHub source links]
+  flows:
+    - id: audience-story
+      source: viewer
+      target: story-config
+      protocol: local React state
+      purpose: Reframe the same source-backed work for each audience decision.
+    - id: source-inspection
+      source: source-catalog
+      target: external-source-repository
+      protocol: HTTPS
+      purpose: Make implementation evidence inspectable.
+    - id: rehearsal-policy
+      source: viewer
+      target: rehearsal-policy
+      protocol: deterministic browser function
+      purpose: Show how evidence and authority change the decision without implying live infrastructure.
+    - id: narration
+      source: voice-tracks
+      target: viewer
+      protocol: local audio assets
+      purpose: Play explicit user-initiated narration with captions and playback control.
+operational_pattern:
+  name: Recognize → choose → inspect → trace → challenge → reuse → return
+  rationale: Adapt Campbell's arc to a reviewer making a decision about applied demo engineering.
+  steps:
+    - Recognize the gap between capability and understanding.
+    - Choose the audience and decision.
+    - Inspect selected source-backed projects.
+    - Reveal the architecture causally.
+    - Change evidence or authority in a visibly labeled browser simulation.
+    - Map capabilities into repeatable consumption paths.
+    - Carry session evidence into a guided handoff.
+  changed_condition: Complete evidence versus missing evidence versus denied authority.
+  close: Inspect a project with its source, architecture and next validation step.
+evidence:
+  - id: repository-artifacts
+    status: verified
+    claim: These projects contain inspectable implementation and documentation.
+    source: Public repository URLs in the portfolio story package.
+    collection: Read-only source inspection; not runtime certification.
+  - id: browser-simulation
+    status: verified
+    claim: The local prerequisite policy changes its decision under changed inputs.
+    source: Session-only browser records.
+    collection: User-triggered deterministic policy evaluation.
+  - id: role-fit
+    status: verified
+    claim: The role values technical storytelling, reusable demos and customer outcomes.
+    source: https://job-boards.greenhouse.io/anthropic/jobs/5455961008
+    collection: Official role read on 2026-10-27.
+decisions:
+  - owner: viewer
+    policy: Choose audience, depth and project.
+  - owner: human operator
+    policy: No infrastructure action or remediation is authorized by this presentation.
+ai_assessment:
+  needed: false
+  kind: none
+  rationale: The portfolio runtime uses content, animation and deterministic local interactions.
+  tasks: []
+  inputs: []
+  outputs: []
+  action_authority: none
+  fallback: Offline assets and source-state labels.
+  final_decision_owner: viewer
+story_mapping:
+  audience_question: Can this engineer make complex technology understandable, credible and reusable?
+  stakes: [Unclear decisions, fragile demonstrations, duplicated work]
+  architecture_flow_ids: [audience-story, source-inspection]
+  live_proof_flow_ids: []
+  comparison: Three visibly simulated evidence and authority conditions.
+  payoff: The current session's inspected projects and policy records.
+  next_journey: Guided source walkthrough of one selected project.

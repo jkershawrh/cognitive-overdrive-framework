@@ -1,0 +1,34 @@
+version: 1
+blueprint: demo-blueprint.yaml
+presentation:
+  title: Cognitive Overdrive — From complexity to clarity
+  audience: Hiring reviewers, C-suite, architects, sales and internal teams
+  desired_decision: Begin a guided discussion about an actual customer problem with Jonathan Kershaw.
+  duration_minutes: 7
+  core_tension: Powerful technology cannot create value until people can understand and act on it.
+  cta: Walk through one project together.
+source_material:
+  mode: rough-idea
+  consequential_assumptions:
+    - First version is a private portfolio iteration; authorship and impact remain reviewable.
+    - Cognitive Overdrive personal branding supersedes starter corporate headline branding.
+    - Project source evidence does not imply live certification or commercial adoption.
+beats:
+  - {beat: ordinary-world, chapter: The possibility, claim: Complexity becomes useful when the audience can see a path.}
+  - {beat: stakes, chapter: The decision, claim: Each audience needs a different decision from the same system.}
+  - {beat: system-reveal, chapter: The work, claim: Inspect the systems and experiences behind the story.}
+  - {beat: system-reveal, chapter: The architecture, claim: Each component answers a question.}
+  - {beat: trials, chapter: The proof, claim: A credible demonstration makes its limits visible.}
+  - {beat: trials, chapter: The multiplier, claim: Reuse carries the work beyond one room.}
+  - {beat: transformation, chapter: The return, claim: Leave with an inspectable next step.}
+evidence:
+  - {id: repository-artifacts, classification: verified-fact, treatment: Source-reviewed; impact and production status are not implied.}
+  - {id: browser-simulation, classification: rehearsal-fixture, treatment: Explicit simulation label on every record.}
+journey:
+  presentation: Seven chapters, presenter-paced, approximately 5–7 minutes with pauses.
+  live_demonstration: Browser simulation only in iteration one; live infrastructure is not connected.
+  guided_demo: Case drawer, source link, architecture reveal and evidence export continue the same state.
+  hands_on_lab: Follow the selected project's documented lab; no lab certification claimed here.
+open_questions:
+  - User review of project emphasis, role positioning and voice delivery.
+  - Add cleared customer impact and selected recorded live proof in subsequent iteration.

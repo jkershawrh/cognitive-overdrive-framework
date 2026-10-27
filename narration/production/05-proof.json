@@ -1,0 +1,20 @@
+{
+  "id": "05-proof",
+  "input_sha256": "85d46870f43dade17d909c41b1bf811aa212690528eae47004547d4233fc4170",
+  "audio_sha256": "f5d1c7029a3a44b8c6dcd95cc3cd1b0a5aa4cf7d429c11600c4e4bba3b65b9ea",
+  "model_id": "eleven_v3",
+  "voice_name": "Kersh",
+  "settings_submitted": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "use_speaker_boost": true,
+    "speed": 1.04
+  },
+  "direction": "confident",
+  "generation_requests": 1,
+  "alignment_duration_seconds": 39.36,
+  "bytes": 630743,
+  "post_generation_time_stretching": false,
+  "subjective_listening_review": "pending"
+}
